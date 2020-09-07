@@ -49,7 +49,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.PowerMockitoMockingStaticMethodTest">
+  <component name="RunManager" selected="JUnit.PowerMockitoMockingStaticMethodTest.powerMockito_MockingAStaticMethodCall">
     <configuration name="PowerMockitoMockingStaticMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MockitoExa" />
       <extension name="coverage">
@@ -81,23 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerMockitoMockingStaticMethodTest.testStaticMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MockitoExa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.in28minutes.powermock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.in28minutes.powermock" />
-      <option name="MAIN_CLASS_NAME" value="com.in28minutes.powermock.PowerMockitoMockingStaticMethodTest" />
-      <option name="METHOD_NAME" value="testStaticMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoBusinessImplMockitoTest.letsTestDeleteNow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToDoTestWithMockitoInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MockitoExa" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +90,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.in28minutes.business" />
-      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.TodoBusinessImplMockitoTest" />
-      <option name="METHOD_NAME" value="letsTestDeleteNow" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.ToDoTestWithMockitoInject" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoBusinessImplMockitoTest.testArgumentCapture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToDoTestWithMockitoInject.testToDoDeleteService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MockitoExa" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +105,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.in28minutes.business" />
-      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.TodoBusinessImplMockitoTest" />
-      <option name="METHOD_NAME" value="testArgumentCapture" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.ToDoTestWithMockitoInject" />
+      <option name="METHOD_NAME" value="testToDoDeleteService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoTestWithMockitoInject.testToDoService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MockitoExa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.in28minutes.business" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.ToDoTestWithMockitoInject" />
+      <option name="METHOD_NAME" value="testToDoService" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PowerMockitoMockingStaticMethodTest" />
         <item itemvalue="JUnit.PowerMockitoMockingStaticMethodTest.powerMockito_MockingAStaticMethodCall" />
-        <item itemvalue="JUnit.PowerMockitoMockingStaticMethodTest.testStaticMethod" />
-        <item itemvalue="JUnit.TodoBusinessImplMockitoTest.testArgumentCapture" />
-        <item itemvalue="JUnit.TodoBusinessImplMockitoTest.letsTestDeleteNow" />
+        <item itemvalue="JUnit.PowerMockitoMockingStaticMethodTest" />
+        <item itemvalue="JUnit.ToDoTestWithMockitoInject" />
+        <item itemvalue="JUnit.ToDoTestWithMockitoInject.testToDoDeleteService" />
+        <item itemvalue="JUnit.ToDoTestWithMockitoInject.testToDoService" />
       </list>
     </recent_temporary>
   </component>
@@ -160,40 +159,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1599400159080">
+    <state width="1323" height="302" key="GridCell.Tab.0.bottom" timestamp="1599499075579">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599400159080" />
-    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1599400159080">
+    <state width="1323" height="302" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599499075579" />
+    <state width="1323" height="302" key="GridCell.Tab.0.center" timestamp="1599499075578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599400159080" />
-    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1599400159080">
+    <state width="1323" height="302" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599499075578" />
+    <state width="1323" height="302" key="GridCell.Tab.0.left" timestamp="1599499075578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599400159080" />
-    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1599400159080">
+    <state width="1323" height="302" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599499075578" />
+    <state width="1323" height="302" key="GridCell.Tab.0.right" timestamp="1599499075578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599400159080" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1599399262273">
+    <state width="1323" height="302" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599499075578" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1599466035050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599399262273" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1599399262273">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599466035050" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1599466035050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599399262273" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1599399262273">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599466035050" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1599466035050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599399262273" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1599399262273">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599466035050" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1599466035050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599399262273" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599466035050" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1599398178708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -202,6 +202,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="105" width="570" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1599393570671" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1599467589916">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1599467589916" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599393560655">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -217,13 +221,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/in28minutes/powermock/SystemUnderTest.java</url>
-          <line>19</line>
+          <line>20</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/in28minutes/powermock/PowerMockitoMockingStaticMethodTest.java</url>
           <line>32</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/ToDoTestWithMockitoInject.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

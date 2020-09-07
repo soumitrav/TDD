@@ -31,6 +31,11 @@ public class PowerMockitoMockingStaticMethodTest {
 		when(dependencyMock.retrieveAllStats()).thenReturn(Arrays.asList(1,2,3));
 		PowerMockito.mockStatic(UtilityClass.class);
 		when(UtilityClass.staticMethod(6)).thenReturn(60);
+		//PowerMockito.mockStatic(SystemUnderTest.class);
+		systemUnderTest = spy(systemUnderTest);
+		//when(systemUnderTest.initialize(1)).thenReturn(true);
+		doReturn(true).when(systemUnderTest).initialize(100);
+		//doNothing().when(SystemUnderTest.initialize());
 		assertEquals(60,systemUnderTest.methodCallingAStaticMethod());
 		PowerMockito.verifyStatic();
 		UtilityClass.staticMethod(6);

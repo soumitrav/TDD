@@ -17,6 +17,7 @@ public class SystemUnderTest {
 
 	public int methodCallingAStaticMethod() {
 		//privateMethodUnderTest calls static method SomeClass.staticMethod
+		initialize(100);
 		List<Integer> stats = dependency.retrieveAllStats();
 		long sum = 0;
 		for (int stat : stats)
@@ -24,6 +25,14 @@ public class SystemUnderTest {
 		return UtilityClass.staticMethod(sum);
 	}
 
+	public boolean initialize(int id){
+		System.out.println("this is orignal");
+		if(id >100)
+			return true;
+		else
+			return false;
+
+	}
 	private long privateMethodUnderTest() {
 		List<Integer> stats = dependency.retrieveAllStats();
 		long sum = 0;
@@ -31,4 +40,6 @@ public class SystemUnderTest {
 			sum += stat;
 		return sum;
 	}
+
+
 }

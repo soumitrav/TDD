@@ -101,4 +101,19 @@ public class TodoBusinessImplMockitoTest {
 		assertEquals("Java",argumentCaptor.getValue());
 
 	}
+
+	@Test
+	public void argumentCaptorSizeTest(){
+		ArgumentCaptor<String> captor = ArgumentCaptor.forClass(String.class);
+		List<String> todos = Arrays.asList("Java", "Kotlin", "Spring");
+		TodoService service = mock(TodoService.class);
+		when(service.retrieveTodos("Soumitra")).thenReturn(todos);
+
+		TodoBusinessImpl impl = new TodoBusinessImpl(service);
+		impl.deleteTodosNotRelatedToSpring("Soumitra");
+		then(service).should(times(2)).deleteTodo(captor.capture());
+
+		assertEquals(2,captor.getAllValues().size());
+	}
+
 }
